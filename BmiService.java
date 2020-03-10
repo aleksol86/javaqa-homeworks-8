@@ -1,10 +1,9 @@
-public class BmiService {
-    public int calculate(int cost) {
-        int bodyMass = 90;
-        int height = 2;
-        int bMI =  90 / 4;
-        return 90 / 4;
+public class Main {
+    public static void main(String[] args) {
+        BmiService service = new BmiService();
+        long weight = 75;
+        long height = 164;
+        long bmi = service.calculate(weight, height);
+        System.out.println(bmi);
     }
 }
-
-
